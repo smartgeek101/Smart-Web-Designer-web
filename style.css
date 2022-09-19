@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(background.png);
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 90%;
+	height: 60px;
+	padding: 0 5%;
+}
+.navbar h1{
+	color: #009688;
+}
+span{
+	color: #a69c33;
+}
+.navbar ul{
+	list-style: none;
+	display: flex;
+
+}
+.navbar ul li{
+	padding: 10px 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 0.1s;
+}
+.navbar ul li a:hover{
+	color: #42b9d6;
+}
+.container{
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	
+}
+.contant{
+	width: 100%;
+	top: 50%;
+	text-align: center;
+	position: absolute;
+	transform: translateY(-50%);
+	color: #fff;
+	padding-top: 50px;
+	
+
+}
+.contant h1{
+	font-size: 60px;
+	margin-top: 50px;
+}
+.contant p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+button{
+	width: 150px;
+	padding: 5px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 3px solid #009688;
+	background: transparent;
+	cursor: pointer;
+	overflow: hidden;
+	transition: all 0.3s ease-out ;
+}
+button:hover{
+	background: black;
+}
+button span:hover{
+	color: orange;
+}
+
+
+	
+
